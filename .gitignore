@@ -1,0 +1,41 @@
+# =============================================================
+# Bolívar and His Treasure — 2D Illustration Project .gitignore
+# =============================================================
+
+# Python virtual environment (5+ GB of CUDA/PyTorch DLLs)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fooocus AI image generator (large model weights & binaries)
+Fooocus-main/
+
+# Temporary / scratch files
+temp_compressed_imgs/
+*.tmp
+*.temp
+
+# OS-generated junk
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Large raw source files that are already represented by locked JPGs
+*.heic
+*.webp
+
+# Jupyter notebooks (binary format, messy diffs)
+*.ipynb
+
+# Large intermediate/preview files from brain scratch dir (not needed in repo)
+*_fresh_gen_preview.jpg
+
+# Credentials / secrets
+*.env
+.env
+secrets.json
